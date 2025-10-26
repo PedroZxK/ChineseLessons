@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>学中文互动学习</title>
+  <link rel="stylesheet" href="样式.css" />
+  <link rel="shortcut icon" href="/图片/logo.png" type="image/x-icon">
+</head>
+<body>
+  <header>
+    <h1>学中文 · Aprender Mandarim</h1>
+    <p>Aprenda vocabulário, pinyin e caracteres de forma divertida 🎯</p>
+  </header>
+
+  <nav id="nav-categorias">
+    <button class="tab-button active" data-tab="transportes">🚗 交通工具</button>
+    <button class="tab-button" data-tab="antonimos">⚖️ 反义词</button>
+    <button class="tab-button" data-tab="tempo">🕒 时间</button>
+    <button class="tab-button" data-tab="frutas">🍎 水果</button>
+    <button class="tab-button" data-tab="verduras">🥦 蔬菜</button>
+  </nav>
+
+  <div id="nav-modos">
+    <button class="mode-button active" data-mode="flashcards">📚 Estudar (Flashcards)</button>
+    <button class="mode-button" data-mode="quiz-mc">🏆 Quiz (Significado)</button>
+    <button class="mode-button" data-mode="quiz-audio">🎧 Quiz (Áudio)</button>
+    <button class="mode-button" data-mode="memoria">🧠 Jogo da Memória</button>
+  </div>
+
+  <main id="conteudo"></main>
+
+  <footer>
+    <p>© 2025 学中文互动学习 | Feito por Pedro Santos</p>
+  </footer>
+
+  <script src="词汇.js"></script>
+  <script src="脚本.js"></script>
+</body>
+</html>
