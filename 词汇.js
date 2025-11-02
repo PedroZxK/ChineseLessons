@@ -28,6 +28,48 @@ const categorias_meta = {
         pinyin: "shū cài",
         significado: "Vegetais",
         audio: "声音/shucai.mp3"
+    },
+    cores: {
+        caractere: "颜色",
+        pinyin: "yán sè",
+        significado: "Cores",
+        audio: "声音/yanse.mp3"
+    },
+    corpo: {
+        caractere: "身体",
+        pinyin: "shēn tǐ",
+        significado: "Corpo",
+        audio: "声音/shenti.mp3"
+    },
+    comidas: {
+        caractere: "食物",
+        pinyin: "shí wù",
+        significado: "Comidas",
+        audio: "声音/shiwu.mp3"
+    },
+    itens: {
+        caractere: "生活用品",
+        pinyin: "shēng huó yòng pǐn",
+        significado: "Itens do Dia a Dia",
+        audio: "声音/shenghuoyongpin.mp3"
+    },
+    profissoes: {
+        caractere: "职业",
+        pinyin: "zhí yè",
+        significado: "Profissões",
+        audio: "声音/zhiye.mp3"
+    },
+    lugares: {
+        caractere: "地点",
+        pinyin: "dì diǎn",
+        significado: "Lugares",
+        audio: "声音/didian.mp3"
+    },
+    classificadores: {
+        caractere: "量词",
+        pinyin: "liàng cí",
+        significado: "Classificadores",
+        audio: "声音/liangci.mp3"
     }
 };
 const vocabulario = {
@@ -112,5 +154,98 @@ const vocabulario = {
         { caractere: "茄子", pinyin: "qié zi", significado: "berinjela", imagem: "berinjela.png", audio: "声音/qiezi.mp3" },
         { caractere: "胡萝卜", pinyin: "hú luó bo", significado: "cenoura", imagem: "cenoura.png", audio: "声音/huluobo.mp3" },
         { caractere: "白菜", pinyin: "bái cài", significado: "acelga / repolho chinês", imagem: "acelga-repolho.png", audio: "声音/baicai.mp3" }
+    ],
+    
+    cores: [
+        { caractere: "红色", pinyin: "hóngsè", significado: "vermelho", imagem: "vermelho.png", audio: "声音/hongse.mp3" },
+        { caractere: "黄色", pinyin: "huángsè", significado: "amarelo", imagem: "amarelo.png", audio: "声音/huangse.mp3" },
+        { caractere: "蓝色", pinyin: "lánsè", significado: "azul", imagem: "azul.png", audio: "声音/lanse.mp3" },
+        { caractere: "绿色", pinyin: "lǜsè", significado: "verde", imagem: "verde.png", audio: "声音/lvse.mp3" },
+        { caractere: "紫色", pinyin: "zǐsè", significado: "roxo", imagem: "roxo.png", audio: "声音/zise.mp3" },
+        { caractere: "黑色", pinyin: "hēisè", significado: "preto", imagem: "preto.png", audio: "声音/heise.mp3" },
+        { caractere: "白色", pinyin: "báisè", significado: "branco", imagem: "branco.png", audio: "声音/baise.mp3" },
+        { caractere: "咖啡色", pinyin: "kāfēisè", significado: "marrom", imagem: "marrom.png", audio: "声音/kafeise.mp3" },
+        { caractere: "灰色", pinyin: "huīsè", significado: "cinza", imagem: "cinza.png", audio: "声音/huise.mp3" }
+    ],
+
+    corpo: [
+        { caractere: "眼睛", pinyin: "yǎn jing", significado: "olhos", imagem: "olhos.png", audio: "声音/yanjing.mp3" },
+        { caractere: "耳朵", pinyin: "ěr duo", significado: "orelhas", imagem: "orelhas.png", audio: "声音/erduo.mp3" },
+        { caractere: "鼻子", pinyin: "bí zi", significado: "nariz", imagem: "nariz.png", audio: "声音/bizi.mp3" },
+        { caractere: "嘴", pinyin: "zuǐ", significado: "boca", imagem: "boca.png", audio: "声音/zui.mp3" },
+        { caractere: "头", pinyin: "tóu", significado: "cabeça", imagem: "cabeca.png", audio: "声音/tou.mp3" },
+        { caractere: "肩膀", pinyin: "jiān bǎng", significado: "ombro", imagem: "ombro.png", audio: "声音/jianbang.mp3" },
+        { caractere: "手", pinyin: "shǒu", significado: "mão", imagem: "mao.png", audio: "声音/shou.mp3" },
+        { caractere: "胳膊", pinyin: "gē bo", significado: "braço", imagem: "braco.png", audio: "声音/gebo.mp3" },
+        { caractere: "肚子", pinyin: "dù zi", significado: "barriga", imagem: "barriga.png", audio: "声音/duzi.mp3" },
+        { caractere: "腿", pinyin: "tuǐ", significado: "perna", imagem: "perna.png", audio: "声音/tui.mp3" },
+        { caractere: "脚", pinyin: "jiǎo", significado: "pé", imagem: "pe.png", audio: "声音/jiao.mp3" }
+    ],
+
+    comidas: [
+        { caractere: "面包", pinyin: "miàn bāo", significado: "pão", imagem: "pao.png", audio: "声音/mianbao.mp3" },
+        { caractere: "面条", pinyin: "miàn tiáo", significado: "macarrão", imagem: "macarrao.png", audio: "声音/miantiao.mp3" },
+        { caractere: "饺子", pinyin: "jiǎo zi", significado: "bolinho chinês", imagem: "jiaozi.png", audio: "声音/jiaozi.mp3" },
+        { caractere: "三明治", pinyin: "sān míng zhì", significado: "sanduíche", imagem: "sanduiche.png", audio: "声音/sanmingzhi.mp3" },
+        { caractere: "酸奶", pinyin: "suān nǎi", significado: "iogurte", imagem: "iogurte.png", audio: "声音/suannai.mp3" },
+        { caractere: "牛奶", pinyin: "niú nǎi", significado: "leite", imagem: "leite.png", audio: "声音/niunai.mp3" },
+        { caractere: "茶", pinyin: "chá", significado: "chá", imagem: "cha.png", audio: "声音/cha.mp3" },
+        { caractere: "咖啡", pinyin: "kā fēi", significado: "café", imagem: "cafe.png", audio: "声音/kafei.mp3" },
+        { caractere: "果汁", pinyin: "guǒ zhī", significado: "suco de frutas", imagem: "suco.png", audio: "声音/guozhi.mp3" },
+        { caractere: "奶茶", pinyin: "nǎi chá", significado: "chá com leite", imagem: "cha-com-leite.png", audio: "声音/naicha.mp3" }
+    ],
+
+    itens: [
+        { caractere: "杯子", pinyin: "bēi zi", significado: "copo", imagem: "copo.png", audio: "声音/beizi.mp3" },
+        { caractere: "桌子", pinyin: "zhuō zi", significado: "mesa", imagem: "mesa.png", audio: "声音/zhuozi.mp3" },
+        { caractere: "椅子", pinyin: "yǐ zi", significado: "cadeira", imagem: "cadeira.png", audio: "声音/yizi.mp3" },
+        { caractere: "筷子", pinyin: "kuài zi", significado: "hashis", imagem: "hashi.png", audio: "声音/kuaizi.mp3" },
+        { caractere: "勺子", pinyin: "sháo zi", significado: "colher", imagem: "colher.png", audio: "声音/shaozi.mp3" },
+        { caractere: "笔", pinyin: "bǐ", significado: "caneta / lápis", imagem: "caneta.png", audio: "声音/bi.mp3" },
+        { caractere: "窗户", pinyin: "chuāng hu", significado: "janela", imagem: "janela.png", audio: "声音/chuanghu.mp3" },
+        { caractere: "花瓶", pinyin: "huā píng", significado: "vaso de flores", imagem: "vaso.png", audio: "声音/huaping.mp3" },
+        { caractere: "橡皮", pinyin: "xiàng pí", significado: "borracha", imagem: "borracha.png", audio: "声音/xiangpi.mp3" },
+        { caractere: "雨伞", pinyin: "yǔ sǎn", significado: "guarda-chuva", imagem: "guarda-chuva.png", audio: "声音/yusan.mp3" },
+        { caractere: "电脑", pinyin: "diàn nǎo", significado: "computador", imagem: "computador.png", audio: "声音/diannao.mp3" },
+        { caractere: "手机", pinyin: "shǒu jī", significado: "celular", imagem: "celular.png", audio: "声音/shouji.mp3" },
+        { caractere: "钥匙", pinyin: "yào shi", significado: "chave", imagem: "chave.png", audio: "声音/yaoshi.mp3" },
+        { caractere: "钱包", pinyin: "qián bāo", significado: "carteira", imagem: "carteira.png", audio: "声音/qianbao.mp3" },
+        { caractere: "门", pinyin: "mén", significado: "porta", imagem: "porta.png", audio: "声音/men.mp3" },
+        { caractere: "床", pinyin: "chuáng", significado: "cama", imagem: "cama.png", audio: "声音/chuang.mp3" }
+    ],
+
+    profissoes: [
+        { caractere: "医生", pinyin: "yī shēng", significado: "médico", imagem: "medico.png", audio: "声音/yisheng.mp3" },
+        { caractere: "老师", pinyin: "lǎo shī", significado: "professor", imagem: "professor.png", audio: "声音/laoshi.mp3" },
+        { caractere: "律师", pinyin: "lǜ shī", significado: "advogado", imagem: "advogado.png", audio: "声音/lvshi.mp3" },
+        { caractere: "售货员", pinyin: "shòu huò yuán", significado: "vendedor", imagem: "vendedor.png", audio: "声音/shouhuoyuan.mp3" },
+        { caractere: "服务员", pinyin: "fú wù yuán", significado: "garçom / atendente", imagem: "garcom.png", audio: "声音/fuwuyuan.mp3" },
+        { caractere: "清洁工", pinyin: "qīng jié gōng", significado: "faxineiro", imagem: "faxineiro.png", audio: "声音/qingjiegong.mp3" },
+        { caractere: "司机", pinyin: "sī jī", significado: "motorista", imagem: "motorista.png", audio: "声音/siji.mp3" },
+        { caractere: "厨师", pinyin: "chú shī", significado: "cozinheiro", imagem: "cozinheiro.png", audio: "声音/chushi.mp3" },
+        { caractere: "工程师", pinyin: "gōng chéng shī", significado: "engenheiro", imagem: "engenheiro.png", audio: "声音/gongchengshi.mp3" },
+        { caractere: "经理", pinyin: "jīng lǐ", significado: "gerente", imagem: "gerente.png", audio: "声音/jingli.mp3" },
+        { caractere: "秘书", pinyin: "mì shū", significado: "secretário", imagem: "secretario.png", audio: "声音/mishu.mp3" }
+    ],
+
+    lugares: [
+        { caractere: "公司", pinyin: "gōng sī", significado: "empresa", imagem: "empresa.png", audio: "声音/gongsi.mp3" },
+        { caractere: "学校", pinyin: "xué xiào", significado: "escola", imagem: "escola.png", audio: "声音/xuexiao.mp3" },
+        { caractere: "医院", pinyin: "yī yuàn", significado: "hospital", imagem: "hospital.png", audio: "声音/yiyuan.mp3" },
+        { caractere: "银行", pinyin: "yín háng", significado: "banco", imagem: "banco.png", audio: "声音/yinhang.mp3" },
+        { caractere: "邮局", pinyin: "yóu jú", significado: "correio", imagem: "correio.png", audio: "声音/youju.mp3" },
+        { caractere: "饭店", pinyin: "fàn diàn", significado: "restaurante", imagem: "restaurante.png", audio: "声音/fandian.mp3" },
+        { caractere: "面包店", pinyin: "miàn bāo diàn", significado: "padaria", imagem: "padaria.png", audio: "声音/mianbaodian.mp3" },
+        { caractere: "地铁站", pinyin: "dì tiě zhàn", significado: "estação de metrô", imagem: "estacao-metro.png", audio: "声音/ditiezhan.mp3" },
+        { caractere: "车站", pinyin: "chē zhàn", significado: "estação (rodoviária)", imagem: "rodoviaria.png", audio: "声音/chezhan.mp3" },
+        { caractere: "机场", pinyin: "jī chǎng", significado: "aeroporto", imagem: "aeroporto.png", audio: "声音/jichang.mp3" }
+    ],
+
+    classificadores: [
+        { caractere: "一个人", pinyin: "yí gè rén", significado: "1 pessoa (个 gè: classificador genérico)", imagem: "pessoa.png", audio: "声音/yigeren.mp3" },
+        { caractere: "两只猫", pinyin: "liǎng zhī māo", significado: "2 gatos (只 zhī: para animais pequenos)", imagem: "gatos.png", audio: "声音/liangzhimao.mp3" },
+        { caractere: "三条狗", pinyin: "sān tiáo gǒu", significado: "3 cães (条 tiáo: coisas compridas ou animais)", imagem: "caes.png", audio: "声音/santiaogou.mp3" },
+        { caractere: "四片面包", pinyin: "sì piàn miàn bāo", significado: "4 fatias de pão (片 piàn: para fatias finas)", imagem: "fatias-pao.png", audio: "声音/sipianmianbao.mp3" },
+        { caractere: "五副眼镜", pinyin: "wǔ fù yǎn jìng", significado: "5 pares de óculos (副 fù: para objetos em pares)", imagem: "pares-oculos.png", audio: "声音/wufuyanjing.mp3" }
     ]
 };
