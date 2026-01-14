@@ -28,6 +28,26 @@
     <button class="tab-button" data-tab="classificadores">📏 量词</button>
 </nav>
 
+<section id="anki-dojo" class="dojo-container">
+  <h2>🐲 Anki Dojo</h2>
+  <p>Teste sua memória: Tente lembrar antes de clicar!</p>
+  
+  <div class="flashcard" onclick="flipCard()">
+      <div class="card-content">
+          <div class="hanzi-display" id="dojo-hanzi">点击开始</div>
+          
+          <div class="answer-box hidden" id="dojo-answer">
+              <div class="pinyin-display" id="dojo-pinyin">Clique no botão abaixo</div>
+              <div class="translation-display" id="dojo-pt">Para começar</div>
+          </div>
+      </div>
+      <div class="tap-hint">👆 Toque para revelar</div>
+  </div>
+
+  <div class="controls">
+      <button onclick="nextCard()" class="btn-action">🔄 Próxima Palavra</button>
+  </div>
+</section>
 
   <div id="nav-modos">
     <button class="mode-button active" data-mode="flashcards">📚 Estudar (Flashcards)</button>

@@ -406,3 +406,38 @@ function tocarAudio(nome) {
     audio.play().catch(e => console.error("Erro ao tocar áudio:", e));
 }
 window.tocarAudio = tocarAudio;
+
+let isRevealed = false;
+
+function nextCard() {
+    const randomIndex = Math.floor(Math.random() * ankiVocab.length);
+    const wordObj = ankiVocab[randomIndex];
+
+    document.getElementById('dojo-hanzi').innerText = wordObj.hz;
+    document.getElementById('dojo-pinyin').innerText = wordObj.py;
+    document.getElementById('dojo-pt').innerText = wordObj.pt;
+
+    const answerBox = document.getElementById('dojo-answer');
+    answerBox.classList.add('hidden');
+    isRevealed = false;
+
+    const card = document.querySelector('.flashcard');
+    card.style.borderBottomColor = '#e1e4e8';
+}
+
+function flipCard() {
+    const answerBox = document.getElementById('dojo-answer');
+    const card = document.querySelector('.flashcard');
+
+    if (!isRevealed) {
+        answerBox.classList.remove('hidden');
+        card.style.borderBottomColor = '#4cd137';
+        isRevealed = true;
+    } else {
+        nextCard();
+    }
+}
+
+window.onload = function () {
+    nextCard();
+};
